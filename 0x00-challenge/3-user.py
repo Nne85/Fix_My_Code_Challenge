@@ -88,13 +88,16 @@ if __name__ == '__main__':
         print("is_valid_password should return True if it's the right password")
 
     if user_1.is_valid_password("Fakepwd"):
-        print("is_valid_password should return False if it's not the right password")
+        print("is_valid_password should return\
+                False if it's not the right password")
 
     if user_1.is_valid_password(None):
         print("is_valid_password should return False if compared with None")
 
     if user_1.is_valid_password(89):
-        print("is_valid_password should return False if compared with an integer")
+        print("is_valid_password should\
+                return False if compared with an integer")
 
     if user_2.is_valid_password("No pwd"):
-        print("is_valid_password should return False if no password set before")
+        print("is_valid_password should\
+                return False if no password set before")
